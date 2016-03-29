@@ -1,46 +1,67 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
+* {
+  box-sizing: border-box; 
+}
 
-    <title>Huang's homepage</title>
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+height:800px; 
+width:1200px;
+  color: #606c71; }
 
-    <link href='stylesheet.css' rel='stylesheet' type='text/css'>
+a {
+  color: #000000;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
 
-  </head>
+.page-header {
+  color: #fff;
+  text-align: center;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957); 
+}
 
-<body>
+.Quotes{
+  height: 300px;
+  width:500px;
+  margin-left: 50px;
+  display: inline-block;
+  font-size: 18px;
+}
 
-    <section class="page-header">
-      <h1 class="project-name">Welcome to Shuai Huang's Webpage</h1>
-    </section>
+.Quotes img{
+max-width:50%; 
 
+margin-left: 0px;
+}
 
-    <section class="profile-directory">
-    <p><img src="IMG_3632.jpg"/></p>
-    <p>Shuai Huang</p>      
-    
+.Quotes p { 
+}
 
-<!-- link the following-->
-    <ul>
-      <li><h3> Resume</h3></li>
-      <li><h3> Projects</h3></li>
-      <li><h3> Pictures and Stories</h3></li>
-    </ul>
-
-    </section>
-
-
-    <section class="Quotes">
-    <p>Quote of The Day:</p>
-    <p><a href="http://www.brainyquote.com/quotes/quotes/c/christophe116204.html?src=t_good">There are three ingredients in the good life: learning, earning and yearning
-     <br>---Christopher Morley<br></a></p>
-    
-    <p><img src="http://infovict.com/wp-content/uploads/infovict-life-style.jpg"/><p>
-    </section>
-
-
-
+.profile-directory{
+  display: inline-block;
+  height: 300px;
+  margin-left:100px;
+  margin-top: 40px;
+  width: 500px;
+  font-size: 18px
   
-</body>
-</html>
+}
+
+.profile-directory img{
+  max-width: 20%;
+  max-height: 20%;
+  margin-left: 0px;
+
+}
+.profile-directory p{
+  margin-left: 20px;
+}
+.profile-directory ul{
+  font-size: 16px;
+}
+
+
